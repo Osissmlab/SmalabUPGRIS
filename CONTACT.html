@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMA Laboratrium UPGRIS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png" alt="SMA Lanoratorium UPGRIS"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="HOME.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="BLOG.html">BLOG</a></li>
+                    <li><a href="CONTACT.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nihil officia expedita repellat</p>
+    </section>
+
+
+<!---contact--->
+<section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.2212631197417!2d110.44606697410758!3d-6.983195068382865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708d924166370b%3A0x76b35ff00112341d!2sSMA%20Laboratorium%20UPGRIS!5e0!3m2!1sid!2sid!4v1738377045253!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+</section>
+
+<section class="contac-us">
+
+    <divc class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Jalan XYZ UPGRIS</h5>
+                    <p>IDONESIA</p>
+                </span>
+            </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <span>
+                <h5>+62 7777777</h5>
+                <p>24/7</p>
+            </span>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <span>
+                <h5>ridhocta3@gmail.com</h5>
+                <p>Kirim Pertanyaan Mu</p>
+            </span>
+        </div>
+        <div class="contact-col">
+
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Masukan Nama" required>
+                <input type="email" name="email" placeholder="Masukan Email"required>
+                <input type="text" name="subject" placeholder="Masukan Pertanyaan Anda"required>
+                <textarea name="message" rows="8" placeholder="Pesan"></textarea>
+                <button type="submit" class="hero-btn red-btn">Kirim
+                    Pesan
+                </button>
+            </form>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+   
+<!----footer--->
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Cari kami di sosial media berikut</p>
+    <div class="icons">
+       <p>@smalabschoolupgris<i class="fa-brands fa-instagram"></i></p>
+
+
+    </div>
+    <p>made by @osissmalab<i class="fa-brands fa-instagram"></i></p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+        var navlinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navlinks.style.transition = "right 1s";
+            navlinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navlinks.style.transition = "right 1s";
+            navlinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
+

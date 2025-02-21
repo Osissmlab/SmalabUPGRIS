@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMA Laboratrium UPGRIS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png" alt="SMA Lanoratorium UPGRIS"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="HOME.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="BLOG.html">BLOG</a></li>
+                    <li><a href="CONTACT.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Blog</h1>
+    </section>
+
+<!----------------Blog Page-------------->
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-col">
+            <img src="Image/nor.jpg">
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Comm</h2>
+        </div>
+        <div class="blog-col">
+            <img src="Image/nor.jpg">
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Comm</h2>
+        </div>
+        <div class="blog-col">
+            <img src="Image/nor.jpg">
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Comm</h2>
+        </div>
+    </div>
+    <div class="coment-box">
+
+        <h3>Tingalkan Komentar</h3>
+
+        <form class="comment-form">
+            <input type="text" placeholder="Masukan Nama">
+            <input type="email" placeholder="Masukan Email">
+            <textarea rows="5" placeholder="Komentar">
+            </textarea>
+            <button type="submit" class="hero-btn red-btn">POST</button>
+        </form>
+
+    </div>
+
+
+</section>
+
+
+   
+<!----footer--->
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Cari kami di sosial media berikut</p>
+    <div class="icons">
+       <p>@smalabschoolupgris<i class="fa-brands fa-instagram"></i></p>
+
+
+    </div>
+    <p>made by @osissmalab<i class="fa-brands fa-instagram"></i></p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+        var navlinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navlinks.style.transition = "right 1s";
+            navlinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navlinks.style.transition = "right 1s";
+            navlinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
+
